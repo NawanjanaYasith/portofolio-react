@@ -1,11 +1,16 @@
+import About from '../components/About/About'
+import Hero from '../components/Hero/Hero'
+import Navbar from '../components/Navbar/Navbar'
 import './App.css'
 
 function App() {
 
   return (
-    <div>
-
-    </div>
+      <div>
+        <Navbar/>
+        <Hero/>
+        <About/>
+      </div>
   )
 }
 
