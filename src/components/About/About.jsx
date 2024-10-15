@@ -13,7 +13,7 @@ export default function About(){
             </div>
             <div className='about-sections'>
                 <div className='about-left'>
-                    <img src={profile_image}/>
+                    <img src={profile_image} className='profile_image'/>
                 </div>
                 <div className='about-right'>
                     <div className='about-para'>
