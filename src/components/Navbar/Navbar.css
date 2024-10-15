@@ -1,0 +1,33 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 170px;
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    font-size: 18px;
+    list-style-type: none; 
+}
+.nav-connect-btn{
+    padding: 15px 19px;
+    border-radius: 50px;
+    background: linear-gradient(267deg,#DA7C25 0.36%,#B923E1 102.06%);
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.nav-connect-btn:hover{
+    transform: scale(1.05);
+}
+.name-logo{
+    font-size: 38px;
+}
+.underline{
+    width: 70px;
+    height: 4px;
+    margin-left: 16px;
+    background: linear-gradient(267deg,#DA7C25 0.36%,#B923E1 102.06%);
+}
